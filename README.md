@@ -1,5 +1,7 @@
 # ElephantStack
-Column store for Postgres via arrays
+Column store for Postgres via arrays.
+
+This project is in the design stage. Please join our mailing list at https://groups.google.com/forum/#!forum/elephantstack for more information.
 
 ## Description
 Postgres does well at many "big data" challenges and can easily handle 10TB+ databases, but it does poorly when the number of individual rows gets very large (typically 100M+). Much of the reason for this is that Postgres has a minimum 23 byte overhead per row. In practical use, the per-row overhead is usually closer to 32 bytes or more (including surrogate key and index).
